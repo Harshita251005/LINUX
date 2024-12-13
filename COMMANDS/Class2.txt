@@ -1,7 +1,7 @@
 1. we cannot make directory at root directly, error will come (Permission denied),we can make directory by sudo mkdir foldername
 2. two types of path
- 2.1 relative path ->kissi ke relative path find out karna eg(cd user/Desktop)
- 2.2 absolute path -> starting se path
+ 2.1 relative path ->ik current location se kaha tak jana
+ 2.2 absolute path -> path starting from root
 3. ctrl+alt+t(open Terminal)
 4. ctrl+d(close Terminal)
 5. All the Commands used in linux is in bin
@@ -15,7 +15,7 @@ root directory
 5. etc ->  it contains all system related configuration files in here or in its sub-directories.A "configuration file" is defined as a local file used to control the operation of a program;it cannot be an executable binary. 
             Ex:-adduser.conf, theme config.
 
-file working
+file work
 1. make a folder in Desktop make a new folder in it and again make a new folder in it -> (mkdir -p folder1/folder2/folder3)
 2. make a 3 folder in desktop -> (mkdir folder1 folder2 folder3)
 
@@ -38,8 +38,4 @@ file working
 
 9) ls -h -> display in human readable format 
 
-10) ls -R -> R means Recursive. 
-
-It will list all files and directories including sub directory contents also. By default ls 
-
-will display only direct contents but not sub directory contents. 
+10) ls -R -> R means Recursive. It will list all files and directories including sub directory contents also. By default ls will display only direct contents but not sub directory contents. 
