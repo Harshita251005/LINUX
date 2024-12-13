@@ -1,0 +1,35 @@
+1. ls ->list all th folders ina folder
+2. cd ->change directory
+ 2.1 cd .. -> change directory to prev directory(one step back to current directory)
+ 2.2 cd -> changes directory to root  
+ 2.3 cd [destination] -> it should be in same directory
+3. pwd -> present working directory
+4. mkdir -> creates a directory
+5. rm -> remove 
+  5.1 rm [file_name] -> removes specific files
+  5.2 rm -d -> removes empty directory
+  5.3 rm -r -> removes non empty directory
+  5.4 rmdir -> removes empty directory
+  5.5 rmdir -p -> removes sub directory and parent
+6. cp -> copy command 
+  cp [source] [destination]
+7. mv -> move command
+  mv [source] [destination]
+8. touch -> to create a file
+
+
+//Class Practical working
+
+.cd Desktop
+.mkdir folder1
+.cd folder1
+.touch file1.txt
+.cd ..
+.mkdir folder2
+.cp folder1/file1.txt/folder2
+.mkdir folder3
+.mv folder2/file1.txt folder3
+.rm folder3 (it cannot be remove because it is not empty)
+.rm -r folder3
+.rm -d folder2
+.pwd
