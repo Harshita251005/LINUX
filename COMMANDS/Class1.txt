@@ -1,7 +1,7 @@
-1. ls ->list all th folders ina folder
+1. ls ->list all th files in a folder
 2. cd ->change directory
  2.1 cd .. -> change directory to prev directory(one step back to current directory)
- 2.2 cd -> changes directory to root  
+ 2.2 cd / -> changes directory to root  
  2.3 cd [destination] -> it should be in same directory
 3. pwd -> present working directory
 4. mkdir -> creates a directory

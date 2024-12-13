@@ -1,0 +1,45 @@
+1. we cannot make directory at root directly, error will come (Permission denied),we can make directory by sudo mkdir foldername
+2. two types of path
+ 2.1 relative path ->kissi ke relative path find out karna eg(cd user/Desktop)
+ 2.2 absolute path -> starting se path
+3. ctrl+alt+t(open Terminal)
+4. ctrl+d(close Terminal)
+5. All the Commands used in linux is in bin
+6. to clear use clear
+
+root directory
+1. bin -> this directory contains basic commands which is enough for the minimal system function ; ex :-ls, cat, cp 
+2. sbin -> This folder contains commands which are required for changing system properties ; Ex:-adduser,reboot,shutdown0 
+3. boot -> The contents are mostly Linux kernel files and bootloaderfiles(files needed to start up the operating system) 
+4. dev -> This contains device files.This file represents your speaker device,keyboard 
+5. etc ->  it contains all system related configuration files in here or in its sub-directories.A "configuration file" is defined as a local file used to control the operation of a program;it cannot be an executable binary. 
+            Ex:-adduser.conf, theme config.
+
+file working
+1. make a folder in Desktop make a new folder in it and again make a new folder in it -> (mkdir -p folder1/folder2/folder3)
+2. make a 3 folder in desktop -> (mkdir folder1 folder2 folder3)
+
+
+1) ls -> It will display all files and directories according to alphabetical order of names. 
+
+2) ls -r -> It will display all files and directories in reverse of aplhabetical order. 
+
+3) ls | more -> To display content line by line (To come out we have to use q) 
+
+4)ls -l -> To display long listing of files 
+
+5) ls -t -> To display all files based on last modified date and time. Most recent is at top and old are at bottom. 
+
+6) ls -rt -> To display all files based on reverse of last modified date and time. Old files are at top and recent files are at bottom. 
+
+7) ls -a -> a means all ; To display all files including hidden files. Here . and .. also will be displayed. 
+
+8) ls -A -> A means almost all ; To display all files including hidden files except . and .. 
+
+9) ls -h -> display in human readable format 
+
+10) ls -R -> R means Recursive. 
+
+It will list all files and directories including sub directory contents also. By default ls 
+
+will display only direct contents but not sub directory contents. 
